@@ -1,0 +1,104 @@
+<datawarrior-fileinfo>
+<version="3.2">
+<created="1580733810035">
+<rowcount="4">
+</datawarrior-fileinfo>
+<column properties>
+<columnName="Structure">
+<columnProperty="specialType	idcode">
+<columnName="idcoordinates2D">
+<columnProperty="parent	Structure">
+<columnProperty="specialType	idcoordinates2D">
+<columnName="FragFp">
+<columnProperty="parent	Structure">
+<columnProperty="specialType	FragFp">
+<columnProperty="version	1.2.1">
+</column properties>
+idcoordinates2D	FragFp	Structure	Structure No	cLogP	cLogS	H-Acceptors	Polar Surface Area	Druglikeness	Total Molweight	Molweight	Monoisotopic Mass	cLogP 2	cLogS 2	H-Acceptors 2	H-Donors	Total Surface Area	Relative PSA	Polar Surface Area 2	Druglikeness 2
+!B}EauD@AI_s[tVOQX|r]uD@AI_s[tVOQX]QAuDGTP}EaMoQX]QAuDGTP@DgtVG|v}EctVOQXIQo]WTP@Dd	:UvzfzUzSxxQT9zUQNlvsfvbAPbgY9B8Uz2E@059Huf61WY2EO1G06JVRR@nPH2dK2224V20380F!ck8WNF0	e`RRLH@A@hbnNg`ICHhheDXddmDeEDehdqHxEUMm|]]A@qUUMPMARED@@@	1	3.1669	-4.454	7	82.08	8.3247	434.470	434.470	434.175419	3.1669	-4.454	7	1	315.97	0.21898	82.08	8.3247
+!BvGNIoy@JvGOX\rV_d@j@mkI{A\H_^JO@AGVotBimKcJ{tBiPJgJ{tBimKa@jP	zxUnrYtGtN4F1J2DHN0lXN2H!F0d390BHnX58X01Gk960W!@9VCX5ol@g95LnFc10234cL!85F04K88V8FV	fa{qB@AJ[HDadTRTRbVRLRVRisQkNrV@Hfjh@Ja`@@	2	2.5426	-4.463	4	56.92	1.6734	323.370	323.370	323.143390	2.5426	-4.463	4	3	244.25	0.2045	56.92	1.6734
+!BY}LoLhyTDugt}ARcg~N_yR{Y}M@fPBNLeCLYpBN@H{LYpBNsF\rT@BN@HxrT@	:UvzvtUdN3y3LPYLRFsk80VpJNlcVC0BUk058V029o84_0W0fo04V0JFIN815mFV_B1lV2J0840GOFV01W0kV	fa{I@@DLeTFQSQQISFIKJIHRiZCEoViZi`@jjXhIh@@	3	2.0619	-3.683	5	72.94	4.2674	320.395	320.395	320.163711	2.0619	-3.683	5	2	247.35	0.23291	72.94	4.2674
+!BM@]@EeWoM@\tAt@VU^}U{sPGM@\ZSPGPAYU{uWoJn@tAsPGPAY@E`Bnn]|tAwJoRDNoCT@V	:UvjvxzjRjyWLvUUyOfYQnuyRHzfnCGZMqVACnXGQpOElzj6vvWSa7ShLcdGMQ3c_4MbBsM1795G24pFBW8FV	ec`VHD@FCOJfim@ICZPrJIJIIQQFKIQYQT\JNF^E]CSPAESTa@qUEBaIPyP@@	4	2.0485	-4.554	7	84.2	4.366	380.357	380.357	380.119715	2.0485	-4.554	7	2	266.1	0.28666	84.2	4.366
+<hitlist data>
+<hitlistName="<selection>">
+<hitlistData="H">
+</hitlist data>
+<datawarrior properties>
+<axisColumn_2D View_0="Structure">
+<axisColumn_2D View_1="Structure">
+<axisColumn_3D View_0="Structure">
+<axisColumn_3D View_1="Structure">
+<axisColumn_3D View_2="Structure">
+<chartType_2D View="scatter">
+<chartType_3D View="scatter">
+<columnWidth_Table_Druglikeness="80">
+<columnWidth_Table_Druglikeness 2="80">
+<columnWidth_Table_H-Acceptors="80">
+<columnWidth_Table_H-Acceptors 2="80">
+<columnWidth_Table_H-Donors="80">
+<columnWidth_Table_Molweight="80">
+<columnWidth_Table_Monoisotopic Mass="80">
+<columnWidth_Table_Polar Surface Area="80">
+<columnWidth_Table_Polar Surface Area 2="80">
+<columnWidth_Table_Relative PSA="80">
+<columnWidth_Table_Structure="100">
+<columnWidth_Table_Structure No="80">
+<columnWidth_Table_Total Molweight="80">
+<columnWidth_Table_Total Surface Area="80">
+<columnWidth_Table_cLogP="80">
+<columnWidth_Table_cLogP 2="80">
+<columnWidth_Table_cLogS="80">
+<columnWidth_Table_cLogS 2="80">
+<detailView="height[Data]=0.5;height[Structure]=0.5">
+<faceColor3D_3D View="-1250054">
+<filter0="#browser#	#disabled#	Structure	e`RRLH@A@hbnNg`ICHhheDXddmDeEDehdqHxEUMm|]]A@qUUMPMARED@@@">
+<filter1="#category#	Structure">
+<filter10="#double#	Monoisotopic Mass">
+<filter11="#double#	cLogP 2">
+<filter12="#double#	cLogS 2">
+<filter13="#double#	H-Acceptors 2">
+<filter14="#double#	H-Donors">
+<filter15="#double#	Total Surface Area">
+<filter16="#double#	Relative PSA">
+<filter17="#double#	Polar Surface Area 2">
+<filter18="#double#	Druglikeness 2">
+<filter2="#double#	Structure No">
+<filter3="#double#	cLogP">
+<filter4="#double#	cLogS">
+<filter5="#double#	H-Acceptors">
+<filter6="#double#	Polar Surface Area">
+<filter7="#double#	Druglikeness">
+<filter8="#double#	Total Molweight">
+<filter9="#double#	Molweight">
+<filterAnimation0="state=stopped delay=500">
+<mainSplitting="0.72723">
+<mainView="Table">
+<mainViewCount="4">
+<mainViewDockInfo0="root">
+<mainViewDockInfo1="Table	bottom	0.499">
+<mainViewDockInfo2="Table	right	0.499">
+<mainViewDockInfo3="2D View	right	0.499">
+<mainViewName0="Table">
+<mainViewName1="2D View">
+<mainViewName2="Structures">
+<mainViewName3="3D View">
+<mainViewType0="tableView">
+<mainViewType1="2Dview">
+<mainViewType2="structureView">
+<mainViewType3="3Dview">
+<rightSplitting="0.15761">
+<rotationMatrix_3D View00="1">
+<rotationMatrix_3D View01="0">
+<rotationMatrix_3D View02="0">
+<rotationMatrix_3D View10="0">
+<rotationMatrix_3D View11="1">
+<rotationMatrix_3D View12="0">
+<rotationMatrix_3D View20="0">
+<rotationMatrix_3D View21="0">
+<rotationMatrix_3D View22="1">
+<rowHeight_Table="80">
+<showNaNValues_2D View="true">
+<showNaNValues_3D View="true">
+<structureGridColumn_Structures="Structure">
+<structureGridColumns_Structures="6">
+</datawarrior properties>

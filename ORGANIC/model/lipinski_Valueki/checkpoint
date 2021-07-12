@@ -1,0 +1,2 @@
+model_checkpoint_path: "lipinski_Valueki_pretrain_ckpt"
+all_model_checkpoint_paths: "lipinski_Valueki_pretrain_ckpt"

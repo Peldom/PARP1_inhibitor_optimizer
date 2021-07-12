@@ -1,0 +1,12 @@
+{
+    "python.pythonPath": "D:\\Anaconda\\python.exe",
+    "python.linting.pylintArgs": [
+        "--extension-pkg-whitelist=PyQt5"
+    ],
+    "python.testing.pytestArgs": [
+        "操作页面"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.pytestEnabled": true
+}

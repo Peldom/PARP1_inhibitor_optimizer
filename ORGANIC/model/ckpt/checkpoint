@@ -1,0 +1,2 @@
+model_checkpoint_path: "metrics_pretrain_ckpt"
+all_model_checkpoint_paths: "metrics_pretrain_ckpt"

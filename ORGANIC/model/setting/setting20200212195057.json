@@ -1,0 +1,46 @@
+{
+    "name": "metrics",
+    "params": {
+        "TRAIN_LOOP": 10,
+        "PRETRAIN_GEN_EPOCHS": 240,
+        "PRETRAIN_DIS_EPOCHS": 50,
+        "GEN_ITERATIONS": 2,
+        "GEN_BATCH_SIZE": 64,
+        "SEED": null,
+        "DIS_BATCH_SIZE": 64,
+        "DIS_EPOCHS": 3,
+        "EPOCH_SAVES": 20,
+        "GEN_EMB_DIM": 32,
+        "GEN_HIDDEN_DIM": 32,
+        "SAMPLE_NUM": 6400,
+        "BIG_SAMPLE_NUM": null,
+        "LAMBDA": 0.5,
+        "MAX_LENGTH": null,
+        "DIS_EMB_DIM": 64,
+        "DIS_FILTER_SIZES": [
+            5,
+            10,
+            15
+        ],
+        "DIS_NUM_FILTERS": [
+            100,
+            100,
+            100
+        ],
+        "DIS_DROPOUT": 0.75,
+        "DIS_L2REG": 0.2,
+        "START_TOKEN": 0,
+        "CHK_PATH": "../model/checkpoints/"
+    },
+    "data_set": "../data/trainingsets/Value_Ki.smi",
+    "metrics": {
+        "metrics": [
+            "lipinski",
+            "logP"
+        ],
+        "steps": [
+            5,
+            5
+        ]
+    }
+}

@@ -1,0 +1,225 @@
+{
+    "name":{
+        "name":"模型名称",
+        "help":"",
+        "type":"str",
+        "value":"metrics"},
+    "params":{
+        "TRAIN_LOOP":{
+            "name":"总循环次数",
+            "help":"",
+            "type":"int",
+            "value":10},
+        "PRETRAIN_GEN_EPOCHS":{
+            "name":"生成器预训练批次数",
+            "help":"",
+            "type":"int",
+            "value":240},
+        "PRETRAIN_DIS_EPOCHS":{
+            "name":"判别器预训练批次数",
+            "help":"",
+            "type":"int",
+            "value":50},
+        "GEN_ITERATIONS":{
+            "name":"每次批次生成次数",
+            "help":"",
+            "type":"int",
+            "value":2},
+        "GEN_BATCH_SIZE":{
+            "name":"生成器每批次大小",
+            "help":"",
+            "type":"int",
+            "value":64},
+        "SEED":{
+            "name":"随机数种子",
+            "help":"",
+            "type":"int null",
+            "value":null},
+        "DIS_BATCH_SIZE":{
+            "name":"判别器每批次大小",
+            "help":"",
+            "type":"int",
+            "value":64},
+        "DIS_EPOCHS":{
+            "name":"判别器训练批次数",
+            "help":"",
+            "type":"int",
+            "value":3},
+        "EPOCH_SAVES":{
+            "name":"模型保存间隔",
+            "help":"",
+            "type":"int",
+            "value":20},
+        "GEN_EMB_DIM":{
+            "name":"",
+            "help":"",
+            "type":"int",
+            "value":32},
+        "GEN_HIDDEN_DIM":{
+            "name":"",
+            "help":"",
+            "type":"int",
+            "value":32},
+        "SAMPLE_NUM":{
+            "name":"生成器每批次生成分子数",
+            "help":"",
+            "type":"int",
+            "value":6400},
+        "BIG_SAMPLE_NUM":{
+            "name":"最终生成的分子数",
+            "help":"默认为每批次生成数的5倍",
+            "type":"int null",
+            "value":null},
+        "LAMBDA":{
+            "name":"奖励值",
+            "help":"",
+            "type":"float",
+            "value":0.5},
+        "MAX_LENGTH":{
+            "name":"数据集最大分子长度",
+            "help":"",
+            "type":"int null",
+            "value":null},
+        "DIS_EMB_DIM":{
+            "name":"",
+            "help":"",
+            "type":"int",
+            "value":64},
+        "DIS_FILTER_SIZES":{
+            "name":"判别器池化层过滤器大小",
+            "help":"",
+            "type":"list-int",
+            "value":[5,10,15]},
+        "DIS_NUM_FILTERS":{
+            "name":"判别器池化层过滤器数量",
+            "help":"",
+            "type":"list-int",
+            "value":[100, 100, 100]},
+        "DIS_DROPOUT":{
+            "name":"判别器DROPOUT",
+            "help":"",
+            "type":"float",
+            "value":0.75},
+        "DIS_L2REG":{
+            "name":"l2范数损失系数",
+            "help":"",
+            "type":"float",
+            "check":"0?[\\.][0-9]*[1-9]|1",
+            "value":0.2},
+        "START_TOKEN":{
+            "name":"",
+            "help":"",
+            "type":"int",
+            "value":0},
+        "CHK_PATH":{
+            "name":"模型保存路径",
+            "help":"",
+            "type":"path",
+            "value":"./ORGANIC/model/checkpoints/"}},
+    "data_set":{
+        "name":"训练数据集",
+        "help":"",
+        "type":"path",
+        "value":"./ORGANIC/data/trainingsets/Value_Ki.smi"},
+    "metrics":{
+        "validity":{
+            "name":"",
+            "help":"",
+            "recommend": 0,
+            "value":null},
+        "novelty":{
+            "name":"",
+            "help":"",
+            "recommend": 0,
+            "value":null},
+        "creativity":{
+            "name":"",
+            "help":"",
+            "recommend": 0,
+            "value":null},
+        "hard_novelty":{
+            "name":"",
+            "help":"",
+            "recommend": 0,
+            "value":null},
+        "soft_novelty":{
+            "name":"",
+            "help":"",
+            "recommend": 0,
+            "value":null},
+        "diversity":{
+            "name":"",
+            "help":"",
+            "recommend": 0,
+            "value":null},
+        "variety":{
+            "name":"",
+            "help":"",
+            "recommend": 0,
+            "value":null},
+        "symmetry":{
+            "name":"",
+            "help":"",
+            "recommend": 0,
+            "value":null},
+        "conciseness":{
+            "name":"",
+            "help":"",
+            "recommend": 0,
+            "value":null},
+        "lipinski":{
+            "name":"",
+            "help":"",
+            "recommend": 1,
+            "value":5},
+        "synthesizability":{
+            "name":"",
+            "help":"",
+            "recommend": 0,
+            "value":null},
+        "naturalness":{
+            "name":"",
+            "help":"",
+            "recommend": 0,
+            "value":null},
+        "chemical_beauty":{
+            "name":"",
+            "help":"",
+            "recommend": 0,
+            "value":null},
+        "substructure_match_all":{
+            "name":"",
+            "help":"",
+            "recommend": 0,
+            "value":null},
+        "substructure_match_any":{
+            "name":"",
+            "help":"",
+            "recommend": 0,
+            "value":null},
+        "substructure_absence":{
+            "name":"",
+            "help":"",
+            "recommend": 0,
+            "value":null},
+        "logP":{
+            "name":"",
+            "help":"亲水性值",
+            "recommend": 1,
+            "value":5},
+        "pce":{
+            "name":"",
+            "help":"",
+            "recommend": 0,
+            "value":null},
+        "bandgap":{
+            "name":"",
+            "help":"",
+            "recommend": 0,
+            "value":null},
+        "mp":{
+            "name":"",
+            "help":"",
+            "recommend": 0,
+            "value":null}}
+}
